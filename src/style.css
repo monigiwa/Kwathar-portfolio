@@ -4,7 +4,7 @@
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 body {
-  margin: 90px auto;
+  margin: 100px 0;
 }
 
 h1 {
@@ -77,4 +77,11 @@ p {
 
 .email-link:hover {
   text-decoration: underline;
+}
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 48px;
+    line-height: 1.5;
+  }
 }
