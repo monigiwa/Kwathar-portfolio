@@ -8,6 +8,17 @@
 /* body {
   margin: 100px 0;
 } */
+#btn-override a {
+  background: var(--primary-color);
+  color: white;
+  border-radius: 4px;
+  padding: 15px 30px;
+  font-size: 18px;
+  /* text-transform: capitalize; */
+  line-height: 27px;
+  box-shadow: var(--box-shadow);
+}
+
 p {
   font-weight: normal;
   font-size: 16px;
@@ -52,16 +63,9 @@ h3 {
   text-decoration: none;
 }
 
-.btn-branding {
-  background: var(--primary-color);
-  color: white;
-  border-radius: 4px;
-  padding: 15px 30px;
-  font-size: 18px;
-  /* text-transform: capitalize; */
-  line-height: 27px;
-  box-shadow: var(--box-shadow);
-}
+/* .btn-branding {
+  
+} */
 
 .primary-link {
   background: var(--primary-color);
