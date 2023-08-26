@@ -35,7 +35,6 @@ h2 {
 
 h3 {
   font-size: 24px;
-  opacity: 0.7;
   font-family: var(--primary-font-family);
   font-weight: normal;
 }
@@ -67,31 +66,39 @@ h3 {
   text-decoration: none;
   border-radius: 4px;
 }
-.about-section {
+.content-container {
   padding: 160px 20px;
   font-family: var(--primary-font-family);
 }
-.about-section h1 {
+.content h1 {
   font-size: 64px;
   line-height: 80px;
   font-weight: bold;
 }
-.about-section h2 {
+.content h2 {
   font-size: 18px;
   font-weight: bold;
 }
-.about-section p {
+.content p {
   font-size: 16px;
   font-weight: normal;
   line-height: 30px;
 }
-.about-section a {
+.content a {
   text-decoration: none;
 }
-.about-section-content {
+.content h3 {
+  font-size: 24px;
+  line-height: 1.5;
+  font-weight: bold;
+}
+.content p {
+  font-size: 14px;
+}
+.content {
   margin: 30px;
 }
-.about-section .kwathar-image {
+.content-container img {
   border-radius: 25px;
 }
 
@@ -132,7 +139,7 @@ h3 {
   .hero {
     padding: 80px 20px;
   }
-  .about-section {
+  .content-container {
     text-align: center;
     padding: 0;
   }
