@@ -51,13 +51,14 @@ nav ul {
   margin: 0;
 }
 nav li {
-  display: inline;
+  display: inline-block;
   list-style: none;
   line-height: 42px;
   margin-left: 15px;
 }
 nav a {
   text-decoration: none;
+  line-height: 42px;
   color: #272142;
   transition: all 100ms ease-in-out;
 }
