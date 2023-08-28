@@ -196,6 +196,9 @@ footer .social-links a:hover {
     text-align: center;
     font-size: 44px;
   }
+  h4 {
+    font-size: 26px;
+  }
   .content-container {
     text-align: center;
     padding: 0;
