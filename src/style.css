@@ -48,7 +48,7 @@ nav li {
   display: inline-block;
   list-style: none;
   line-height: 42px;
-  margin-left: 13px;
+  margin-left: 15px;
 }
 nav a {
   text-decoration: none;
@@ -106,10 +106,6 @@ footer .social-links a:hover {
 .hero {
   background: var(--secondary-color);
   padding: 80px 20px;
-}
-
-.project-desciption {
-  padding: 60px 20px;
 }
 #bootstrap-override .btn-branding {
   background: var(--primary-color);
