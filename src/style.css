@@ -8,17 +8,6 @@
 body {
   font-family: var(--primary-font-family);
 }
-#bootstrap-override .btn-branding {
-  background: var(--primary-color);
-  font-family: var(--primary-font-family);
-  color: white;
-  border-radius: 4px;
-  padding: 15px 30px;
-  font-size: 18px;
-  line-height: 27px;
-  box-shadow: var(--box-shadow);
-}
-
 p {
   font-weight: normal;
   font-size: 16px;
@@ -119,9 +108,32 @@ footer .social-links a:hover {
   padding: 80px 20px;
 }
 
-.project-description p {
+.project-desciption {
+  padding: 120px 60px;
+}
+#bootstrap-override .btn-branding {
+  background: var(--primary-color);
+  font-family: var(--primary-font-family);
+  color: white;
+  border-radius: 4px;
+  padding: 15px 30px;
   font-size: 18px;
-  line-height: 1.5;
+  line-height: 27px;
+  box-shadow: var(--box-shadow);
+}
+#bootstrap-override .btn-branding-outline {
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  box-shadow: var(--box-shadow);
+  padding: 15px 30px;
+  text-decoration: none;
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 27px;
+}
+#bootstrap-override .btn-branding-outline:hover {
+  background: var(--branding-color);
+  color: white;
 }
 
 .navigation-links {
@@ -135,14 +147,6 @@ footer .social-links a:hover {
   text-decoration: none;
 }
 
-.primary-link {
-  background: var(--primary-color);
-  color: white;
-  box-shadow: var(--box-shadow);
-  padding: 20px 20px;
-  text-decoration: none;
-  border-radius: 4px;
-}
 .about-section {
   font-family: var(--primary-font-family);
 }
@@ -158,11 +162,6 @@ footer .social-links a:hover {
 .content h2 {
   font-size: 18px;
   font-weight: bold;
-}
-.content p {
-  font-size: 16px;
-  font-weight: normal;
-  line-height: 30px;
 }
 .content a {
   text-decoration: none;
@@ -187,23 +186,23 @@ footer .social-links a:hover {
     font-size: 44px;
     line-height: 56px;
   }
-  .primary-link {
+  .btn-branding-outline {
     display: block;
-    margin: 0 20px;
-    text-align: center;
+    width: 200px;
+    margin: 0 auto;
   }
   h2 {
     text-align: center;
-    font-size: 44px;
+    font-size: 42px;
   }
   h4 {
     font-size: 26px;
   }
-  .content-container {
+  .content {
     text-align: center;
     padding: 0;
   }
-  .project-description p {
+  .project-description {
     text-align: center;
   }
 }
