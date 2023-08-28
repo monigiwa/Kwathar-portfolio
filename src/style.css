@@ -109,7 +109,7 @@ footer .social-links a:hover {
 }
 
 .project-desciption {
-  padding: 120px 60px;
+  padding: 60px 20px;
 }
 #bootstrap-override .btn-branding {
   background: var(--primary-color);
@@ -161,7 +161,6 @@ footer .social-links a:hover {
 }
 .content h2 {
   font-size: 18px;
-  font-weight: bold;
 }
 .content a {
   text-decoration: none;
@@ -188,12 +187,12 @@ footer .social-links a:hover {
   }
   .btn-branding-outline {
     display: block;
-    width: 200px;
+    width: 180px;
     margin: 0 auto;
   }
   h2 {
     text-align: center;
-    font-size: 42px;
+    font-size: 30px;
   }
   h4 {
     font-size: 26px;
@@ -202,7 +201,8 @@ footer .social-links a:hover {
     text-align: center;
     padding: 0;
   }
-  .project-description {
+  .project-description p {
     text-align: center;
+    font-size: 15px;
   }
 }
