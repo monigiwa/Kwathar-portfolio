@@ -116,7 +116,7 @@ footer .social-links a:hover {
 }
 .hero {
   background: var(--secondary-color);
-  padding: 160px 20px;
+  padding: 80px 20px;
 }
 
 .project-description p {
@@ -147,7 +147,7 @@ footer .social-links a:hover {
   font-family: var(--primary-font-family);
 }
 .content-container {
-  padding: 160px 20px;
+  padding: 60px 20px;
   font-family: var(--primary-font-family);
 }
 .content h1 {
@@ -195,9 +195,6 @@ footer .social-links a:hover {
   h2 {
     text-align: center;
     font-size: 44px;
-  }
-  .hero {
-    padding: 80px 20px;
   }
   .content-container {
     text-align: center;
